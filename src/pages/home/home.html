@@ -1,14 +1,36 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Pregunta
+     Questions # 1
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-list radio-group>
+    <ion-list-header>
+      a means of transport of four wheels?
+    </ion-list-header>
+  
+    <ion-item>
+      <ion-label>Car</ion-label>
+      <ion-radio checked="true" value="car"></ion-radio>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Bike</ion-label>
+      <ion-radio value="bike"></ion-radio>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Boat</ion-label>
+      <ion-radio value="boat" disabled="false"></ion-radio>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label>Airplane</ion-label>
+      <ion-radio value="airplane" disabled="false"></ion-radio>
+    </ion-item>
+
+  </ion-list>
 </ion-content>
