@@ -1,9 +1,15 @@
+ion-content{
+    margin: 0;
+    
+}
+
 #header{
     color:rgb(8, 8, 8);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-bottom-style: none;
     border-color: white;
+    margin: 0;
 }
 
 #quest{
@@ -11,14 +17,40 @@
     font-family: Arial, Helvetica, sans-serif;
     border-bottom-style: none;
     border-color: white; 
+    margin: 0;
+    word-wrap: break-word;
 }
 
 #card{
-    border-bottom-style: none;
+    border-style: none;
     border-color: white; 
     border-radius: 10px;
     justify-content: center;
-    display: flex;
-    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    
+}
+
+p{
+    word-wrap: break-word;
+    padding: 5px;  
+    text-align: center; 
+}
+
+ion-label{
+    word-wrap: break-word; 
+    display: block;
+    height: auto;
+    margin: 0%;
      
+}
+
+ion-item{
+    height: 100%;
+    width:  100%;
+    margin: 0;
+
+}
+ion-radio{
+    position: absolute;
 }
