@@ -1,50 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-     Questions 
+     Categorie
     </ion-title>
+    
   </ion-navbar>
 </ion-header>
-
 <ion-content padding>
-  <ion-card id="card">
-  <ion-list radio-group>
-    
-    <ion-card-header id="header">
-      Question # 1
-    </ion-card-header>
-    <div>
-        <p> a means of transport of four wheels? </p>
-    <ion-list-header id="quest">
-       
-    </ion-list-header>
+  <h6 id="pag">1</h6>
+  <h3>Question</h3>
+  <div id="pregunta">
+    <p>1. a means of transport of four wheels? </p>
   </div>
-    <ion-card-content>
-    <ion-item>
-      <ion-label>a means of transport of four wheels? </ion-label>
-      <ion-radio checked="true" value="car"></ion-radio>
-    </ion-item>
-    
-    
-  
-    <ion-item>
-      <ion-label>Bike</ion-label>
-      <ion-radio value="bike"></ion-radio>
-    </ion-item>
-  
-    <ion-item>
-      <ion-label>Boat</ion-label>
-      <ion-radio value="boat" disabled="false"></ion-radio>
-    </ion-item>
-    
-    <ion-item>
-      <ion-label>Airplane</ion-label>
-      <ion-radio value="airplane" disabled="false"></ion-radio>
-    </ion-item>
-    
-  </ion-card-content>
-  
-  </ion-list>
-</ion-card>
-<button ion-button round full>Ok</button>
+  <div id="respuesta">
+      <p><ion-radio checked="false" value="car"></ion-radio>Car</p>
+      
+  </div>
+  <div id="respuesta">
+      <p><ion-radio checked="false" value="bike"></ion-radio>Bike</p>
+      
+  </div>
+  <div id="respuesta">
+      <p><ion-radio checked="false" value="boat"></ion-radio>Boat</p>
+      
+  </div>
+  <div id="respuesta">
+      <p><ion-radio checked="false" value="airplane"></ion-radio>Airplane</p>
+  </div>
+  <button ion-button full id="confirm">OK</button>
+     
 </ion-content>

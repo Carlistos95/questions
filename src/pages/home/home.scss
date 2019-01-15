@@ -1,56 +1,61 @@
 ion-content{
-    margin: 0;
+    margin-top: 10px;
     
 }
 
-#header{
-    color:rgb(8, 8, 8);
-    font-family: Arial, Helvetica, sans-serif;
+
+h3{
+    font-family: Arial;
+    font-size: 20px;
     font-weight: bold;
-    border-bottom-style: none;
-    border-color: white;
-    margin: 0;
+    text-align: center;
 }
 
-#quest{
-    color:rgb(8, 8, 8);
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom-style: none;
-    border-color: white; 
-    margin: 0;
-    word-wrap: break-word;
-}
-
-#card{
-    border-style: none;
-    border-color: white; 
-    border-radius: 10px;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
+h4{
+    margin-top: 0;
+    text-align: left;
     
+}
+
+#pag{
+    text-align: right;
+    margin-top:0;
+    
+}
+
+
+#pregunta{
+    margin: 0;
+    text-align: justify;
+    font-size: 15px;
+    padding:5px;
+    font-family: Arial;
+    color: black;
+
+}
+
+#respuesta{
+    margin: 0; 
+    font-size: 15px;
+    font-family: Arial; 
+    text-align: justify;
+    margin-left: 18px;
+
+}
+
+#confirm{
+
+    border-radius: 7px;
 }
 
 p{
-    word-wrap: break-word;
-    padding: 5px;  
-    text-align: center; 
-}
-
-ion-label{
-    word-wrap: break-word; 
-    display: block;
-    height: auto;
-    margin: 0%;
-     
-}
-
-ion-item{
-    height: 100%;
-    width:  100%;
-    margin: 0;
+    text-align: justify;
+    font-size: 15px;
+    
 
 }
+
 ion-radio{
-    position: absolute;
+    width:16px;
+    height:13px;
 }
