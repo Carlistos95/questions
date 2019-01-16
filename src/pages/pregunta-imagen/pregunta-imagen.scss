@@ -1,3 +1,61 @@
-page-pregunta-imagen {
+ion-content{
+    margin-top: 10px;
+    
+}
 
+
+h3{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4{
+    margin-top: 0;
+    text-align: left;
+    
+}
+
+#pag{
+    text-align: right;
+    margin-top:0;
+    
+}
+
+
+#pregunta{
+    margin: 0;
+    text-align: justify;
+    font-size: 15px;
+    padding:5px;
+    font-family: Arial;
+    color: black;
+
+}
+
+#respuesta{
+    margin: 0; 
+    font-size: 15px;
+    font-family: Arial; 
+    text-align: justify;
+    margin-left: 18px;
+
+}
+
+#confirm{
+
+    border-radius: 7px;
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+    
+
+}
+
+ion-radio{
+    width:16px;
+    height:13px;
 }
