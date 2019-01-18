@@ -7,12 +7,12 @@
     </ion-navbar>
   </ion-header>
   <ion-content padding>
-    <h6 id="pag">1</h6>
     <h3>Question</h3>
     <div id="pregunta">
       <img src="assets/imgs/carro.png">
       
     </div>
+    <ion-list radio-group [(ngModel)]="pregunta">
     <div id="respuesta">
         <p><ion-radio checked="false" value="car"></ion-radio>Car</p>
         
@@ -28,7 +28,9 @@
     <div id="respuesta">
         <p><ion-radio checked="false" value="airplane"></ion-radio>Airplane</p>
     </div>
+</ion-list>
     <button ion-button full id="confirm" (click)="goPagina2()">OK</button>
-    
-       
-  </ion-content>
+</ion-content>
+<ion-footer no-border>
+    <h6 id="pag" text-center>2</h6>
+</ion-footer>
