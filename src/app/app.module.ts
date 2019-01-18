@@ -6,22 +6,24 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { PreguntaImagenPageModule } from '../pages/pregunta-imagen/pregunta-imagen.module';
+import { PreguntaImagenPage } from '../pages/pregunta-imagen/pregunta-imagen';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    PreguntaImagenPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    PreguntaImagenPageModule
+    
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    PreguntaImagenPage
   ],
   providers: [
     StatusBar,
