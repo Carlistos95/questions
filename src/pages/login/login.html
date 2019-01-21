@@ -5,7 +5,7 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
   <ion-navbar color="primary">
     <ion-title>login</ion-title>
   </ion-navbar>
@@ -17,9 +17,13 @@
     <img src="assets/imgs/questions.png">
     <h2 text-center text-capitalize>welcome to questions</h2>
   </div>
-
-  <button ion-button full id="confirm" (click)="gotest1()">Start</button>
-  <button ion-button full id="confirm" (click)="gotest2()">Start Test</button>
+  <div text-center>
+  <button ion-button id="confirm" (click)="gotest1()">Start</button>
+  </div>
+  <div text-center>
+  <button ion-button id="confirm" (click)="gotest2()">Start Test</button>
+  </div>
+  
 </ion-content>
 <ion-footer no-border>
   
